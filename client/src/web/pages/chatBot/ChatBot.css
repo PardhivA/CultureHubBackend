@@ -1,0 +1,114 @@
+
+  .container {
+    max-width: 100%; /* Adjust the maximum width as needed */
+    padding: 20px;
+     /* Background color for the chat container */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 8px; 
+    height: fit-content;
+  }
+
+  .toggleGenderButton:hover{
+    transform: none;
+  }
+  .containerMain{
+    max-width: 50%;/* Adjust the maximum width as needed */
+    margin: 8% auto;
+    background-color: blue;
+    
+    padding: 20px;
+     /* Background color for the chat container */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 8px;
+  }
+
+  #light .containerMain{
+    box-shadow: 0px 4px 6px rgba(0, 0, 5, 0.6); 
+    background-color: #fff;
+  }
+  #dark .containerMain{
+    box-shadow: 0px 4px 6px rgba(156, 155, 155, 0.6); 
+    background-color: rgb(36, 36, 36);
+  }
+
+  /* Header styles */
+  .botName {
+    font-size: 24px;
+    margin-bottom: 20px;
+     /* Text color for the header */
+  }
+
+  #light .botName{
+    color: #333;
+  }
+  #dark .botName{
+    color: whitesmoke;
+  }
+
+  /* Input bar styles */
+  .input-bar {
+    width: 95%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent; /* Background color for the input bar */
+    border-radius: 4px;
+    padding: 10px;
+  }
+
+  .input-bar input{
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 0 2rem 0rem 0;
+  }
+  #light .input-bar input{
+    border: 0.1rem solid gray;
+    background-color: white;
+    color: black;
+  }
+  #dark .input-bar input{
+    background-color: black;
+    border: 0.1rem solid white;
+    color: white;
+  }
+
+  .Prompt {
+    width: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex: 1;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: red; /* Text color for the input bar */
+  }
+
+  .search-button {
+    background-color: #1da1f2; /* Background color for the search button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    box-shadow: 0 0.2rem 0.2rem 0.1rem blue;
+    cursor: pointer;
+  }
+
+  /* Response styles */
+  .response {
+    background-color: #e6f7ff; /* Background color for chat responses */
+    padding: 10px;
+    border-radius: 4px;
+    color: #333; /* Text color for chat responses */
+    margin-bottom: 10px;
+  }
+
+  #light .warning{
+    color: black;
+  }
+  #dark .warning{
+    color:white;
+  }

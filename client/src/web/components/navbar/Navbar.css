@@ -1,0 +1,155 @@
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  position: fixed;
+  width: 97%;
+  top: 0;
+  z-index: 100;
+}
+#light .navbar{
+  color: black;
+  background-color: white;
+  box-shadow: 0 0rem 0.3rem 0rem grey;
+}
+#dark .navbar{
+color: white;
+background-color: black;
+box-shadow: 0 0rem 0.3rem 0rem white;
+}
+
+
+
+.pageslinks{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 1.5rem;
+  color: white;
+  margin-right: 15px;
+  height: 1rem;
+  border-left: 0.1rem solid grey;
+}
+.pageslinks:hover{
+  height: 2rem;
+}
+
+.blink{
+    padding: 5px 14px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background-color:  #276998;
+}
+.blink:hover{
+   cursor: pointer;
+   opacity: 0.9;
+   transform: scale(1.1);
+}
+.n-link{
+    align-items: center;
+}
+
+
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-icon {
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #1da1f2; /* Twitter-like blue color */
+  }
+  
+  .navbar-search {
+    flex: 1; /* Expand to fill available space */ 
+     max-width: 270px;
+     margin: 0 3rem 0 auto;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  .navbar-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #333; /* Dark text color */
+    font-weight: bold;
+    font-size: 14px;
+    transition: color 0.3s;
+    margin: 0.5rem;
+  }
+  #light .navbar-links a{
+    color: #333;
+  }
+  #dark .navbar-links a{
+    color: whitesmoke;
+  }
+  #light .navbar-links a:hover, #dark .navbar-links a:hover {
+    color: #1da1f2; /* Twitter-like blue color on hover */
+  }
+  
+  .navbar-links li {
+    margin-right: 20px;
+  }
+
+  
+  .navbar-profile {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 auto;
+    justify-content: flex-end;
+    width: 13rem;
+  }
+  
+  .profile-image img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 15px;
+  }
+  .profile-image:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
+  .profile-name span {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333; /* Dark text color */
+  }
+
+  #light .profile-name span{
+    color: #333; 
+  }
+
+  #dark .profile-name span{
+    color: whitesmoke; 
+  }
+  .navaddposts{
+    padding-right: 10px ;
+  }
+  .navaddposts:hover{
+    scale: 1.1;
+    cursor: pointer;
+  }

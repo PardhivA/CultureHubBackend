@@ -1,0 +1,31 @@
+.commentBox{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.commentInput{
+    width: 90%;
+    margin: 1rem 0rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.commentButton{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.1rem 0.4rem;
+    border-radius: 1rem;
+    background-color: transparent;
+}
+#commentButtonOnPosts{
+    width: min-content;
+    height: min-content;
+    padding: 0.1rem 0.3rem 0 0.3rem;
+    margin: 0 0 0 0.4rem;
+    object-fit: cover;
+}

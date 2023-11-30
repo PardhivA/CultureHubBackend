@@ -1,0 +1,58 @@
+.TrendingCard{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    position: fixed;
+    
+}
+
+#light .TrendingCard{
+    background-color: var(--cardColor);
+    color: black;
+}
+#dark .TrendingCard{
+    background-color: rgba(63, 62, 62, 0.644);
+    color: white;
+}
+
+
+
+.trending{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+    gap: 0.4rem;
+    border-radius: 0 1rem 0rem 1rem;
+}
+
+#light .trending{
+    border-top: 0.13rem solid rgba(165, 165, 165, 0.726);
+
+}
+#dark .trending{
+    border-top: 0.13rem solid rgba(221, 220, 220, 0.726);
+
+}
+
+.trending:hover {
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+#light .trending:hover{
+
+    background-color: rgb(240, 240, 240);
+}
+#dark .trending:hover{
+    background-color: rgb(53, 53, 53);
+}
+
+
+.trending>span:nth-of-type(1)
+{
+    font-weight: bold;
+}
+.trending>span:nth-of-type(2)
+{
+    font-size: 13px;
+}
